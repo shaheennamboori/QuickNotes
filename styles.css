@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+    padding: 5px;
+    font-size: large;
+    background-color: #18080A;
+    color: white;
+  }
+
+  #note-form{
+    display: flex;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .button-container>button {
+        margin: 0 2px;
+  }
+
+  .copy-button{
+    padding: 8px 16px;
+  font-size: 14px;
+  background-color: #F6546A; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+  .copy-button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+
+  .delete-button{
+    background-color: #f65858;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .delete-button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 192, 203, 0.31);
+  }
+
+  .input-box {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
+    background: none;
+    color: white;
+    flex-grow: 1;
+  }
+  
+  .input-box:focus {
+    border-color: #4CAF50; /* Green border color on focus */
+  }
+  
+  .add-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-left: 5px;
+    background-color: #f6546a    ;    /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
